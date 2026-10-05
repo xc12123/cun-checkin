@@ -1,0 +1,20 @@
+{
+  "name": "cun-checkin",
+  "version": "1.0.0",
+  "description": "CUN.AI 一键签到工具",
+  "main": "checkin.js",
+  "type": "module",
+  "scripts": {
+    "start": "node checkin.js",
+    "save": "node checkin.js --save",
+    "login": "node auto-login.js"
+  },
+  "keywords": [
+    "cun-ai",
+    "checkin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}
